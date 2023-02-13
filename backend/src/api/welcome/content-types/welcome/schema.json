@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcomes",
+  "info": {
+    "singularName": "welcome",
+    "pluralName": "welcomes",
+    "displayName": "welcome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "secondTitle": {
+      "type": "richtext"
+    },
+    "coverText": {
+      "type": "richtext"
+    },
+    "btnText": {
+      "type": "richtext"
+    }
+  }
+}
