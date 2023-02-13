@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "roadmaps",
+  "info": {
+    "singularName": "roadmap",
+    "pluralName": "roadmaps",
+    "displayName": "roadmap"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "roadmapSteps": {
+      "type": "json"
+    },
+    "progress": {
+      "type": "integer"
+    }
+  }
+}

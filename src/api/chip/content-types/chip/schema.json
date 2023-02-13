@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "chips",
+  "info": {
+    "singularName": "chip",
+    "pluralName": "chips",
+    "displayName": "chip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "roadmapTitle": {
+      "type": "richtext"
+    },
+    "chip": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

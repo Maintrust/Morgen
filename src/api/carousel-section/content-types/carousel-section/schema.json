@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousel_sections",
+  "info": {
+    "singularName": "carousel-section",
+    "pluralName": "carousel-sections",
+    "displayName": "carousel-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "subtext": {
+      "type": "richtext"
+    }
+  }
+}
