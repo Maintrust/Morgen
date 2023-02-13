@@ -1,0 +1,113 @@
+{
+  "welcome": {
+    "title": "We are the Guten Morgen",
+    "text": "Welcome. Guten Morgen is a collection of 10,000 unique NFTs based on the Ethereum blockchain. The acquired NFT serves as a pass to the opportunity to become a participant in good intentions and actions in the reality of our world.",
+    "secondTitle": "What are those?",
+    "coverText": "All 10,000 characters are unique, and 100 of them are extremely rare. All characters cost the same 0.08 ETH. 50 NFTs will be withheld from sale. In the future, part will be used for giveaways. To access the club, members will need to log into their Metamask wallet.",
+    "btnText": "Buy on Opensea"
+  },
+  "club": {
+    "title": "Welcome to the club, buddy",
+    "text": "Each of the ten thousand images in our collection expresses a certain mood, mindset, and attitude to the people and the world. By choosing the image that resonates with you and buying it, you not only get a unique NFT for your collection but also make a contribution to making life on our planet better.",
+    "subtext": "Currently, we want to highlight four areas, which are of the most importance:",
+    "items": [
+      {
+        "title": "Pollution control",
+        "text": "Human influence on the environment is becoming more and more noticeable. Mindless consumption and overspending of resources creates an increasing amount of waste that is becoming increasingly difficult to manage, given that only a small part is recycled. We consider it important to support those movements that are looking for solutions to this problem and strive to bring them to life."
+      },
+      {
+        "title": "Protection and conservation of endangered animal populations",
+        "text": "All over the world, people are destroying the natural habitats of animals, dooming them to extinction and disturbing the biological balance. We invest in projects that help preserve unique natural communities, save animals that have been injured by humans and return them to their natural environment."
+      },
+      {
+        "title": "Help people affected by certain conditions beyond their control.",
+        "text": "When it comes to any crisis, war or natural disaster, children are the first to suffer. They are completely dependent on adults, and they are far from always able to provide them with everything they need. But it is children who determine what our world will be like in ten years. But there are also other factors that do not separate children or adults, namely, serious illnesses. Work in this direction consists in substantial financing of people affected by wars, natural disasters, as well as seriously ill people who have the right to life, but do not have the necessary funds to exercise their rights. We consider it important to support humanitarian and educational projects in different countries so that more people can build the future of their own choice, without dividing the rich and the poor."
+      }
+    ]
+  }, 
+  "tabs": [
+    {
+      "img": "animals",
+      "title": "Protection and conservation of endangered animal populations.",
+      "content": "All over the world, people are destroying the natural habitats of animals, dooming them to extinction and disturbing the biological balance. We invest in projects that help preserve unique natural communities, save animals that have been injured by humans and return them to their natural environment."
+    },
+    {
+      "img": "pollution",
+      "title": "Pollution control.",
+      "content": "Human influence on the environment is becoming more and more noticeable. Mindless consumption and overspending of resources creates an increasing amount of waste that is becoming increasingly difficult to manage, given that only a small part is recycled. We consider it important to support those movements that are looking for solutions to this problem and strive to bring them to life."
+    },
+    {
+      "img": "children",
+      "title": "Help people affected by certain conditions beyond their control.",
+      "content": "When it comes to any crisis, war or natural disaster, children are the first to suffer. They are completely dependent on adults, and they are far from always able to provide them with everything they need. But it is children who determine what our world will be like in ten years. But there are also other factors that do not separate children or adults, namely, serious illnesses. Work in this direction consists in substantial financing of people affected by wars, natural disasters, as well as seriously ill people who have the right to life, but do not have the necessary funds to exercise their rights. We consider it important to support humanitarian and educational projects in different countries so that more people can build the future of their own choice, without dividing the rich and the poor."
+    }
+  ],
+  "chip": {
+    "title": "What in the box?",
+    "text": "Buying an NFT from our collection you become a part of the club – a community of people who care about the world around.{p}Community in a closed club is necessary for interaction when making decisions about good deeds. It will cover progress reports and news. Our team has ideas on how to create an interesting and unusual way for any person to become a doer.{p}We, for our part, promise to thoroughly report, where we direct the raised fund, and what projects and organizations will get our support. We understand, that for all participants it is important to see, that their actions have a real impact.",
+    "tableTitle": "The club will start working after the end of the pre-sale period.",
+    "tableData": {
+      "currentProgress": 7,
+      "details": [
+        {
+          "progress": "5%",
+          "result": "Drawing of 5 rare NFTs among club members."
+        },
+        {
+          "progress": "20%",
+          "result": "We will repay debts for paying third-party bills when creating a collection. Drawing of 10 rare NFTs among club members."
+        },
+        {
+          "progress": "30%",
+          "result": "We publish the first progress report."
+        },
+        {
+          "progress": "50%",
+          "result": "Interesting solutions for the community."
+        },
+        {
+          "progress": "70%",
+          "result": "An exclusive store for club members will open, where you can buy limited edition items."
+        },
+        {
+          "progress": "80%",
+          "result": "Drawing of 10 rare NFTs among club members."
+        },
+        {
+          "progress": "100%",
+          "result": "Intermediate results, work on bugs, information on the further development of the project."
+        }
+      ]
+    }
+  },
+  "team": {
+    "title": "Dream Team",
+    "team": [
+      {
+        "name": "Cras Gravida",
+        "text": "Sed faucibus ipsum",
+        "img": "cras"
+      },
+      {
+        "name": "Lorem Ipsum",
+        "text": "Nam rutrum purus vel libero sodales",
+        "img": "lorem"
+      },
+      {
+        "name": "Doctor",
+        "text": "A nerd in a Рerfect World",
+        "img": "doctor"
+      },
+      {
+        "name": "Nobody",
+        "text": "Probably is staying behind you",
+        "img": "nobody"
+      }
+    ],
+    "text": "We prioritize projects, which not only try to solve some local problems, but also strive to work with its source and bring changes on the global level. Join us and become part of the movement of people who invest in improving our global home."
+  },
+  "footer": {
+    "company": "© 2022 GutenMorgen LLC",
+    "privacyLink": "PRIVACY AND LEGACY"
+  }
+}
