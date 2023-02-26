@@ -2,18 +2,23 @@
   "name": "my-project",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://maintrust.github.io/Morgen",
   "description": "A Strapi application",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "dependencies": {
-    "@strapi/strapi": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
     "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/strapi": "4.5.5",
     "better-sqlite3": "7.4.6"
   },
   "author": {
