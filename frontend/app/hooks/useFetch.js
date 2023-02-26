@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useFetch = (url, type = null) => {
-  const BASE_URL = 'http://localhost:1337/api/';
+  const BASE_URL = 'https://maintrust.github.io/Morgen/api/';
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);

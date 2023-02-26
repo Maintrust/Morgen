@@ -9,5 +9,5 @@ export default function Hero(props) {
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error :(</p>
 
-  return <Banner src={'http://localhost:1337' + data.hero.data.attributes.url || ''} className="mb-4 mb-lg-5 mx-auto"/>
+  return <Banner src={'https://maintrust.github.io/Morgen' + data.hero.data.attributes.url || ''} className="mb-4 mb-lg-5 mx-auto"/>
 }

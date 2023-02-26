@@ -25,7 +25,7 @@ export default function Teammates(props) {
     data.map((teammember,index)=>{
       return (
         <div key={index} className="col-sm-6 col-md-3 col-12 text-center mb-5">
-          <StyledImg width="100%" src={'http://localhost:1337' + teammember.attributes.avatar.data[0].attributes.url}/>
+          <StyledImg width="100%" src={'https://maintrust.github.io/Morgen' + teammember.attributes.avatar.data[0].attributes.url}/>
           <TeammateName>{teammember.attributes.name}</TeammateName>
           <p>{teammember.attributes.description}</p>
         </div>

@@ -36,7 +36,7 @@ export default function Tabs(props) {
   const [tabsData, setTabsData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:1337/api/tabs?populate=*')
+    fetch('https://maintrust.github.io/Morgen/api/tabs?populate=*')
       .then((response) => response.json())
       .then((data) => {
         setTabsData(data.data);
@@ -55,7 +55,7 @@ export default function Tabs(props) {
                   className={ index == selectedTab ? "active" : ""}
                   onClick={() => selectTab(index)}
                 >
-                  <img src={ "http://localhost:1337" + img.url }/>
+                  <img src={ "https://maintrust.github.io/Morgen" + img.url }/>
                 </StyledFigure>
               </>
             )
