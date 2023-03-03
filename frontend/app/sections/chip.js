@@ -20,7 +20,7 @@ export default function Chip(props) {
               { data.text.split('{p}').map ( ( paragraph, index ) => <p key={index}>{paragraph}</p> )}
             </div>
             <div className="col-md-4 col-12 ms-lg-auto text-center">
-              <img src={"https://maintrust.github.io/Morgen" + data.chip.data.attributes.url} style={{width: 'auto', maxHeight: '300px'}}
+              <img src={"http://localhost:1337" + data.chip.data.attributes.url} style={{width: 'auto', maxHeight: '300px'}}
               />
             </div>
           </div>
