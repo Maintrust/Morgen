@@ -8,7 +8,7 @@ export function isObjectEmpty(objectName) {
 
 export function fetchSectionData(href, setDataFunc) {
   return ()=>{
-    fetch(`https://maintrust.github.io/Morgen/api/${href}`)
+    fetch(`http://localhost:1337/api/${href}`)
       .then((response) => response.json())
       .then((data) => {
         setDataFunc(data.data.attributes);

@@ -67,7 +67,7 @@ export default function Carousel(props) {
         const imgSrc = img.attributes.url;
         return (
           <ImgWrap key={imgSrc}>
-            <Img src={'https://maintrust.github.io/Morgen' + imgSrc} />
+            <Img src={'http://localhost:1337' + imgSrc} />
           </ImgWrap>
         )
       } ) }
