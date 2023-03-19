@@ -8,7 +8,7 @@ export function isObjectEmpty(objectName) {
 
 export function fetchSectionData(href, setDataFunc) {
   return ()=>{
-    fetch(`http://localhost:1337/api/${href}`)
+    fetch(`https://gutenmorgen123.000webhostapp.com/api/${href}`)
       .then((response) => response.json())
       .then((data) => {
         setDataFunc(data.data.attributes);
