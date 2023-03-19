@@ -8,7 +8,7 @@ export function isObjectEmpty(objectName) {
 
 export function fetchSectionData(href, setDataFunc) {
   return ()=>{
-    fetch(`https://gutenmorgen123.000webhostapp.com/api/${href}`)
+    fetch(`https://gutenmorgenclub.herokuapp.com/api/${href}`)
       .then((response) => response.json())
       .then((data) => {
         setDataFunc(data.data.attributes);

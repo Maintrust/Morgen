@@ -36,7 +36,7 @@ export default function Tabs(props) {
   const [tabsData, setTabsData] = useState([]);
 
   useEffect(() => {
-    fetch('https://gutenmorgen123.000webhostapp.com/api/tabs?populate=*')
+    fetch('https://gutenmorgenclub.herokuapp.com/api/tabs?populate=*')
       .then((response) => response.json())
       .then((data) => {
         setTabsData(data.data);
