@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useFetch = (url, type = null) => {
-  const BASE_URL = 'https://gutenmorgen123.000webhostapp.com/api/';
+  const BASE_URL = 'https://gutenmorgenclub.herokuapp.com/api/';
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
