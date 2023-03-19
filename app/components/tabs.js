@@ -55,7 +55,7 @@ export default function Tabs(props) {
                   className={ index == selectedTab ? "active" : ""}
                   onClick={() => selectTab(index)}
                 >
-                  <img src={ "http://localhost:1337" + img.url }/>
+                  <img src={img.url}/>
                 </StyledFigure>
               </>
             )
