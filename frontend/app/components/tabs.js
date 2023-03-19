@@ -36,7 +36,7 @@ export default function Tabs(props) {
   const [tabsData, setTabsData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:1337/api/tabs?populate=*')
+    fetch('https://gutenmorgen123.000webhostapp.com/api/tabs?populate=*')
       .then((response) => response.json())
       .then((data) => {
         setTabsData(data.data);
