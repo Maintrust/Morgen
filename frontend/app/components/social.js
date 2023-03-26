@@ -28,10 +28,10 @@ export default function Social(props) {
 
   const socials = {
     instagram: {
-      href: "https://www.instagram.com/p/CkCkNkjNqFI/?igshid=YmMyMTA2M2Y="
+      href: "https://www.instagram.com/gutenmorgennft/"
     },
     twitter: {
-      href: "https://twitter.com/gutenmorgenclub/status/1584014407205818369?s=46&t=xC8wltwNRvMqXGdX7NsSSw",
+      href: "https://twitter.com/GutenMorgenClub",
     },
     facebook: {
       href: "https://www.facebook.com/profile.php?id=100086492920459",
