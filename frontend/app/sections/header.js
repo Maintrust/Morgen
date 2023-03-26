@@ -8,6 +8,7 @@ const Header = styled.header`
   width: 100%;
   @media (max-width: ${commonStyles.breakpoints.md - 1}px) {
     position: fixed;
+    z-index: 1;
   }
 `;
 
@@ -24,6 +25,7 @@ const Burger = styled.button`
   margin: 1em;
   height: 25px;
   width: 25px;
+  z-index: 1;
 
   --stripe-height: 2px;
 
@@ -84,12 +86,11 @@ const NavWrapper = styled.div`
   text-align: right;
   align-items: center;
   justify-content: flex-end;
-  transition: visibility 0s .4s, height .4s, opacity .4s;
+  transition: visibility 0s .4s, opacity .4s;
   visibility: hidden;
   
   &.expanded {
     visibility: visible;
-    height: 120px;
     opacity: 1;
     transition: visibility 0s 0s, height .4s, opacity .4s;
 
@@ -113,6 +114,14 @@ const MainRow = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  @media (min-width: ${commonStyles.breakpoints.md}px) {
+    position: relative;
+  }
 `;
 
 function MobileToggler(props) {
