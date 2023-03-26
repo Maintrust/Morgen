@@ -64,12 +64,12 @@ export default function Navigation(props) {
       <li>
         <HashLink to="/#team">Team</HashLink>
       </li>
-      <li>
+      {/* <li>
         <Link to='/gallery'>Gallery</Link>
       </li>
       <li>
         <Link to='/bathroom'>Bathroom</Link>
-      </li>
+      </li> */}
     </StyledUl>
   )
 }
