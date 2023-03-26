@@ -50,28 +50,46 @@ const GlobalStyle = createGlobalStyle`
   }
   
   h1 {
-    font-size: 40px;
-    font-weight: 900;
-  }
-  
-  h2 {
     font-size: 32px;
     font-weight: 900;
   }
   
-  h3 {
+  h2 {
     font-size: 28px;
+    font-weight: 900;
+  }
+  
+  h3 {
+    font-size: 26px;
     font-weight: 500;
   }
   
   h4 {
-    font-size: 26px;
+    font-size: 24px;
   }
   
   h5 {
     font-size: 20px;
     color: ${commonStyles.colors.accent};
     font-family: var(--bs-heading-font-family);
+  }
+
+  @media (min-width: ${commonStyles.breakpoints.md}px) {
+    h1 {
+      font-size: 40px;
+    }
+    
+    h2 {
+      font-size: 32px;
+    }
+    
+    h3 {
+      font-size: 28px;
+    }
+    
+    h4 {
+      font-size: 26px;
+    }
   }
 
   p:last-child {
