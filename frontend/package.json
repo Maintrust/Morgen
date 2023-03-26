@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "start": "npm install --dev && webpack && webpack-dev-server",
+    "start": "serve",
     "build": "webpack"
   },
   "babel": {
@@ -30,7 +30,8 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-router-hash-link": "^2.4.3",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "serve": "^10.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
