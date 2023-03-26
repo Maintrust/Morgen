@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "start": "npm install --dev && webpack",
+    "start": "node express.js",
     "build": "webpack"
   },
   "babel": {
