@@ -4,7 +4,9 @@ import commonStyles from "./common-styles";
 const Banner = styled.img`
   width: 100%;
   display: block;
-  max-width: 1600px;
+  object-fit: cover;
+  object-position: top;
+  max-height: 1150px;
 `;
 
 const Container = styled.div`
