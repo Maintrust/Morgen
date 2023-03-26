@@ -10,12 +10,12 @@ const StyledUl = styled.ul`
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 720px;
   justify-content: space-between;
   transition: background .3s;
 
   @media (min-width: ${commonStyles.breakpoints.md}px) {
     display: flex;
+    max-width: 720px;
   }
 
   & a {
@@ -39,7 +39,7 @@ const StyledUl = styled.ul`
   }
 
   @media (max-width: ${commonStyles.breakpoints.md - 1}px) {
-    padding-top: 80px;
+    padding-top: 140px;
 
     & a {
       font-size: 12px;
