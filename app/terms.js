@@ -1,6 +1,7 @@
 import React from "react";
 import WebsiteWrapper from "./website-wrapper";
 import useFetch from "./hooks/useFetch";
+import ReactMarkdown from "react-markdown";
 
 export default function Terms() {
   const {loading, error, data} = useFetch('terms');
@@ -10,7 +11,9 @@ export default function Terms() {
 
   return (
     <WebsiteWrapper>
-      { data.content }
+      <Container>
+        <ReactMarkdown source={data.content} escapeHtml={false} />
+      </Container>
     </WebsiteWrapper>
   )
 }
