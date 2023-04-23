@@ -13,7 +13,8 @@ export default function Terms() {
   return (
     <WebsiteWrapper>
       <Container>
-        <ReactMarkdown source={data.content} escapeHtml={false} />
+        <p> HEllo!</p>
+        <ReactMarkdown>{data.content}</ReactMarkdown>
       </Container>
     </WebsiteWrapper>
   )
