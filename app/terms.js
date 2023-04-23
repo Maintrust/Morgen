@@ -12,8 +12,8 @@ export default function Terms() {
 
   return (
     <WebsiteWrapper>
-      <Container>
-        <ReactMarkdown style={{ marginBottom: '80px', marginTop: '40px' }}>{data.content}</ReactMarkdown>
+      <Container style={{ marginBottom: '80px', marginTop: '40px' }}>
+        <ReactMarkdown>{data.content}</ReactMarkdown>
       </Container>
     </WebsiteWrapper>
   )
