@@ -28,7 +28,7 @@ export default function Social(props) {
 
   const socials = {
     instagram: {
-      href: "https://www.instagram.com/gutenmorgennft/"
+      href: "https://www.instagram.com/gutenmorgenclub"
     },
     twitter: {
       href: "https://twitter.com/GutenMorgenClub",
